@@ -13,8 +13,35 @@ body {
     width: 100%;
     border-radius: 16px;
     margin: 16px;
-    display: flex;
+    flex-flow: row wrap;
     padding: 10px;
+}
+
+.history{
+flex-flow: row wrap;
+}
+
+.history__article{
+
+}
+
+.history__title{
+    
+}
+
+.article__title{
+    padding-left: 32px;
+}
+
+.personarticle__header{
+    max-width: 524px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.history__title{
+    text-align: center;
 }
 
 .person__details{
@@ -61,5 +88,6 @@ body {
     min-height: 148px;
     width: 12px;
     height: 100%;
-    
+    float: left;
 }
+

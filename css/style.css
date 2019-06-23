@@ -1,10 +1,23 @@
+.article__title{
+    padding-left: 32px;
+    color: #031927;
+}
+
+.article__content{
+    text-indent: 32px;
+}
+
+
 body {
-    background: #2C2141;
+    background: #031927;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .card {
     width: 100vh;
+    display: block;
+    padding: 0 auto;
 }
 
 .person {
@@ -15,6 +28,7 @@ body {
     margin: 16px;
     flex-flow: row wrap;
     padding: 10px;
+    
 }
 
 .history{
@@ -22,15 +36,15 @@ flex-flow: row wrap;
 }
 
 .history__article{
-
+color: #C8E0F4;
 }
 
 .history__title{
     
 }
 
-.article__title{
-    padding-left: 32px;
+.Person__importantInformation{
+color: #BA1200;
 }
 
 .personarticle__header{
@@ -40,9 +54,6 @@ flex-flow: row wrap;
     margin: 0 auto;
 }
 
-.history__title{
-    text-align: center;
-}
 
 .person__details{
     
@@ -55,7 +66,7 @@ flex-flow: row wrap;
 
 .person__description--info {
     font-size: 16px;
-    color: #ED6D05;
+    color: #508AA8;
 }
 
 .person__link {
@@ -63,7 +74,7 @@ flex-flow: row wrap;
 }
 
 .person__link--service {
-    color: #E20613;
+    color: #BA1200;
     text-decoration: none;
 }
 
@@ -91,3 +102,31 @@ flex-flow: row wrap;
     float: left;
 }
 
+
+.summerJJ{
+    max-width: 300px;
+    padding: 32px;
+    width: 100%;
+    float: right;
+}
+
+.waproKnightJJ{
+    max-width: 300px;
+    padding: 32px;
+    width: 100%;
+    float: left;
+}
+
+.jarJJ{
+    max-width: 300px;
+    padding: 32px;
+    width: 100%;
+    float: right;
+}
+
+.alcoholicJJ{
+    max-width: 300px;
+    padding: 32px;
+    width: 100%;
+    float: left;
+}
